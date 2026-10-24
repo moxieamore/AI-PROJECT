@@ -1,0 +1,13 @@
+{
+  "name": "study-resource-organizer-cloudflare",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Study Resource Organizer built with Cloudflare Pages Functions and D1",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
